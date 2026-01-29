@@ -1,0 +1,16 @@
+<div class="feedback-list">
+  <h2>Feedback List</h2>
+
+  <div *ngIf="feedbacks().length === 0">
+    <p>No feedbacks submitted yet.</p>
+  </div>
+
+  <div *ngFor="let feedback of feedbacks()">
+    <div class="card">
+      <h3>{{ feedback.name }} (Rating: {{ feedback.rating }}/5)</h3>
+      <p><strong>Subject:</strong> {{ feedback.subject }}</p>
+      <p>{{ feedback.comments }}</p>
+      <button (click)="deleteFeedback(feedback.id)">Delete</button>
+    </div>
+  </div>
+</div>

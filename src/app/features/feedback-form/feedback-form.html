@@ -1,0 +1,21 @@
+<div class="feedback-form">
+    <h2>Submit Feedback</h2>
+    <form [formGroup]="feedbackForm" (ngSubmit)="onSubmit()">
+        
+        <label>Name:</label>
+        <input type="text" formControlName="name">
+
+        <label>Subject</label>
+        <input type="text" formControlName="subject">
+
+        <label>Rating (1 to 5):</label>
+        <input type="number" formControlName="rating" min="1" max="5">
+
+        <label>Comments:</label>
+        <textarea formControlName="comments"></textarea>
+
+        <button type="submit" [disabled]="feedbackForm.invalid">Submit</button>
+
+    </form>
+    <router-outlet></router-outlet>
+</div>
