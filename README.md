@@ -10,7 +10,6 @@ A simple and clean Angular 20 project that allows users (like students) to submi
 - ✅ List view of all feedbacks (auto-updated using Signals)
 - ✅ Delete feedback entries
 - ✅ Styled layout with responsive design
-- ✅ Angular 20 using modern best practices
 
 ---
 
@@ -26,7 +25,6 @@ A simple and clean Angular 20 project that allows users (like students) to submi
 
 ## 📸 Screenshot
 
-<!-- Add a real screenshot if available -->
 ![Student Feedback Form Preview](screenshot.png)
 
 ---
@@ -42,5 +40,5 @@ A simple and clean Angular 20 project that allows users (like students) to submi
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/student-feedback.git
-cd student-feedback
+git clone https://github.com/Ashna-Tech/student-feedback-angular.git
+cd student-feedback-angular
