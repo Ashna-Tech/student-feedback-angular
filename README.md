@@ -10,6 +10,7 @@ A simple and clean Angular 20 project that allows users (like students) to submi
 - ✅ List view of all feedbacks (auto-updated using Signals)
 - ✅ Delete feedback entries
 - ✅ Styled layout with responsive design
+- ✅ Angular 20 using modern best practices
 
 ---
 
@@ -25,6 +26,7 @@ A simple and clean Angular 20 project that allows users (like students) to submi
 
 ## 📸 Screenshot
 
+<!-- Add a real screenshot if available -->
 ![Student Feedback Form Preview](screenshot.png)
 
 ---
